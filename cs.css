@@ -1,0 +1,139 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall font styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #18bc9c;
+}
+
+/* Main content styles */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* About section */
+#about {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.featured-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section */
+#contact article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/* Aside - Quick Links */
+aside {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+aside ul li a:hover {
+    color: #18bc9c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2C3E50;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

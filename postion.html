@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China Flag</title>
+    <style>
+        .china-flag {
+            width: 400px;
+            height: 240px;
+            background-color: #d92d2b;
+            position: relative;
+            border: 1px solid black;
+        }
+        .star {
+            position: absolute;
+            background-color: #ffde00;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+
+        /* Large Star */
+        .large-star {
+            width: 36px;
+            height: 36px;
+            top: 20px;
+            left: 20px;
+        }
+
+        /* Small Stars */
+        .small-star {
+            width: 20px;
+            height: 20px;
+        }
+        .star-1 { top: 10%; left: 25%; }
+        .star-2 { top: 3%; left: 35%; }
+        .star-3 { top: 7%; left: 45%; }
+        .star-4 { top: 15%; left: 30%; }
+        .star-5 { top: 18%; left: 40%; }
+    </style>
+</head>
+<body>
+    <div class="china-flag">
+        <!-- Large star -->
+        <div class="star large-star"></div>
+        
+        <!-- Small stars -->
+        <div class="star small-star star-1"></div>
+        <div class="star small-star star-2"></div>
+        <div class="star small-star star-3"></div>
+        <div class="star small-star star-4"></div>
+        <div class="star small-star star-5"></div>
+    </div>
+</body>
+</html>
