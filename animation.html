@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes animation1 {
+               from{
+                background-color: rgb(89, 0, 255); 
+                border-radius: 0%;
+            }
+               to{
+                background:repeating-conic-gradient(rgb(64, 255, 0) 30deg,orange 45deg,red 20deg, rgb(0, 94, 255) 90deg );
+                border-radius: 100%;
+            }
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(11, 238, 11);
+            border: 2px solid rgb(32, 9, 9);
+            animation-name: animation1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
